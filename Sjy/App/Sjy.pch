@@ -1,0 +1,27 @@
+//
+//  Tsy.pch
+//  Tsy
+//
+//  Created by lv on 2016-1-19.
+//  Copyright © 2016年 lv. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "TsyConstants.h"  //增加改行，引入全局常量
+
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    #define MAS_SHORTHAND
+
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS
+
+    //#import "Masonry.h"
+#endif
+
+// 日志
+#ifndef DEBUG
+    #define NSLog(...) /* suppress NSLog when in release mode */
+#endif
