@@ -15,6 +15,9 @@
 // 首页url
 FOUNDATION_EXPORT NSString* const INDEX_URL;
 
+// 接口url
+FOUNDATION_EXPORT NSString* const INTERFACE_MAIN_URL;
+
 // ---------------------------------------------
 // 主色
 FOUNDATION_EXPORT NSString* const MAIN_COLOR;

@@ -21,8 +21,10 @@
 + (void)ValidateUserWithParameters:(id)parameters success:(void (^)(NSArray *array))success failure:(void (^)(NSError *error))failure {
     // 调用接口时参数
     NSLog(@"参数：%@", parameters);
+    // 请求地址
+    NSString *url = [NSString stringWithFormat:@"%@/usercenter/ReceiveCheckImgMobile.ashx", INTERFACE_MAIN_URL];
     // 调用
-    [TsyHTTPManager POST:@"http://aq.sijiyun.net.cn/usercenter/ReceiveCheckImgMobile.ashx" parameters:parameters success:^(id responseObject) {
+    [TsyHTTPManager POST:url parameters:parameters success:^(id responseObject) {
         // 成功
         NSLog(@"上传图片，并验证用户：%@", responseObject);
         // 识别标志
@@ -52,8 +54,10 @@
 + (void)UploadUserLearnTimeWithParameters:(id)parameters success:(void (^)(NSArray *array))success failure:(void (^)(NSError *error))failure {
     // 调用接口时参数
     NSLog(@"参数：%@", parameters);
+    // 请求地址
+    NSString *url = [NSString stringWithFormat:@"%@/usercenter/RecordStudytimeMobile.ashx", INTERFACE_MAIN_URL];
     // 调用
-    [TsyHTTPManager GET:@"http://aq.sijiyun.net.cn/usercenter/RecordStudytimeMobile.ashx" parameters:parameters success:^(id responseObject) {
+    [TsyHTTPManager GET:url parameters:parameters success:^(id responseObject) {
         // 成功
         NSLog(@"上传用户学习时间：%@", responseObject);
         // 获取返回数据

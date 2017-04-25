@@ -12,7 +12,10 @@
 
 // ---------------------------------------------
 // 首页url
-NSString* const INDEX_URL = @"http://m.aq.sijiyun.net.cn/";
+NSString* const INDEX_URL = @"http://m.aq.sijiyun.net.cn";
+
+// 接口url
+NSString* const INTERFACE_MAIN_URL = @"http://aq.sijiyun.net.cn";
 
 // ---------------------------------------------
 // 主色
