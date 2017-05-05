@@ -480,6 +480,7 @@
 				TargetAttributes = {
 					A9D696D11EAF108400C5448E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K6E3A7CZ4A;
 					};
 				};
 			};
@@ -683,6 +684,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Sjy/App/Sjy.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Sjy/App/Info.plist";
@@ -692,8 +695,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libpolyvSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lv.Sjy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjy.i;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f172616a-9e2b-4323-b1b8-b76f98d3909a";
 			};
 			name = Debug;
 		};
@@ -703,6 +707,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Sjy/App/Sjy.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Sjy/App/Info.plist";
@@ -712,8 +718,9 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/libpolyvSDK",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lv.Sjy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjy.i;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f172616a-9e2b-4323-b1b8-b76f98d3909a";
 			};
 			name = Release;
 		};
