@@ -104,6 +104,8 @@
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:INDEX_URL] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:30];
     
     [self.webView loadRequest:request];
+    
+    [self.webView.scrollView.mj_header beginRefreshing];
 }
 
 - (void)reloadWebView {
