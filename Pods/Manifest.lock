@@ -33,7 +33,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
-  - SDWebImage (~> 3.7)
+  - SDWebImage (~> 3.8.1)
   - WechatOpenSDK
 
 SPEC CHECKSUMS:
@@ -44,6 +44,6 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   WechatOpenSDK: cbd332148eb792d444ed4eec94f421d98f2046ee
 
-PODFILE CHECKSUM: 20de8ebc53fe0d218f60d72e956fb095ce7fdc40
+PODFILE CHECKSUM: 6bd31618de11b35f1ae8e1da552b2c6f7c7cb2cb
 
 COCOAPODS: 1.2.1
